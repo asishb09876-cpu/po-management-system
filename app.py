@@ -1,4 +1,5 @@
 import streamlit as st
+    total_excise = po_df['total_excise'].sum()
     total_invoice = po_df['invoice_value'].sum()
     total_vat = po_df['vat'].sum()
     total_tcs = po_df['tcs'].sum()
